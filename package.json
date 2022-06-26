@@ -6,6 +6,8 @@
     "start": "next start"
   },
   "dependencies": {
+    "antd": "^4.21.3",
+    "nanoid": "^4.0.0",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0"

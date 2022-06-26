@@ -1,23 +1,22 @@
-# Next.js + Tailwind CSS Example
+# Atlan SQL Runner
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This app is just a mock app built using NextJS (React JS).
 
-## Deploy your own
+It is used to execute SQL queries on user input from the Product table present in the app. The app has provision to toggle between different past queries executed, and to view all the entries from the Product table in our app. As a data source we've used data from [here](https://github.com/graphql-compose/graphql-compose-examples/blob/master/examples/northwind/data/json/products.json).
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Dependencies
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+- [Ant Design](https://www.npmjs.com/package/antd) - Used for Text area, Menu, Table and button components
+- [Nano ID](https://www.npmjs.com/package/nanoid) = Used to set unique ID for different queries
 
-## How to use
+## To run locally
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+To run the app locally, use `yarn` to install dependencies, and then use `yarn dev` to run in local environment
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
+```
+yarn
+
+yarn dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Made with ❤️ by [Harsha Vardhan](https://harshavardhan.dev)
