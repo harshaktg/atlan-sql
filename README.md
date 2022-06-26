@@ -19,4 +19,10 @@ yarn
 yarn dev
 ```
 
+## Live Demo
+
+Click [here](https://atlan-sql-harshaktg.vercel.app/) to view live demo of the app.
+
+---
+
 Made with ❤️ by [Harsha Vardhan](https://harshavardhan.dev)
